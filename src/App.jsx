@@ -3,6 +3,7 @@ import Container from '../component/Container'
 import Nav from '../ui/Nav'
 import Hero from '../ui/Hero'
 import Pillars from '../ui/Pillars'
+import Future from '../ui/Future'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
         <Nav/>
         <Hero/>
         <Pillars/>
+        <Future/>
       </Container>
     </div>
   )
