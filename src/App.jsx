@@ -4,6 +4,7 @@ import Nav from '../ui/Nav'
 import Hero from '../ui/Hero'
 import Pillars from '../ui/Pillars'
 import Future from '../ui/Future'
+import Survey from '../ui/Survey'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Hero/>
         <Pillars/>
         <Future/>
+        <Survey/>
       </Container>
     </div>
   )
